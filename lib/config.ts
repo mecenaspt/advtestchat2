@@ -11,7 +11,7 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 //     prompt: "What can you do?",
 //     icon: "circle-question",
 //   },
-];
+// ];
 
 export const PLACEHOLDER_INPUT = "Zadaj pytanie...";
 

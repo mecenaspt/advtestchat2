@@ -253,7 +253,7 @@ export function ChatKitPanel({
         }
         throw error instanceof Error ? error : new Error(detail);
       } finally {
-        if (isMountedRef.current && !currentSecret) {
+        if (isMountedRef.current) {
           setIsInitializingSession(false);
         }
       }

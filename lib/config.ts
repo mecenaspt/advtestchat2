@@ -5,13 +5,7 @@ export const WORKFLOW_ID =
 
 export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
-export const STARTER_PROMPTS: StartScreenPrompt[] = [
-  {
-    label: "Co możesz zrobić?",
-    prompt: "Co możesz zrobić?",
-    icon: "circle-question",
-  },
-];
+export const STARTER_PROMPTS: StartScreenPrompt[] = [];
 
 export const PLACEHOLDER_INPUT = "Zadaj pytanie...";
 
